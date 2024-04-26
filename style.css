@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* write your CSS here */
+
+body{
+    background-color: #DACDC9;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    width: 840px;
+    height: 420px;
+    border-radius: 40px;
+    background-color: #EDE9E2;
+    box-shadow: 10px 10px 0 #00000025;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-content{
+    width: 672px;
+    height: 281px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.share-container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.btn-share{
+    height: 82px;
+    width: 82px;
+    border-radius: 50%;
+    background-color: #D9D9D9;
+    color: #1E1411;
+    border: none;
+}
+
+.btn-share:hover{
+    cursor: pointer;
+    border: 1px solid #1E1411;
+}
+
+.copy-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #D9D9D9;
+    height: 56px;
+    border-radius: 12px;
+}
+
+.text-link{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.link{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    font-size: 16px; 
+    margin-left: 20px;
+}
+
+.copy{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    font-size: 16px; 
+    margin-right: 20px;
+}
